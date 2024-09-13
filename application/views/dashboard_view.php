@@ -1,18 +1,12 @@
 
-	
-		<div class="page-wrapper">
+  
+    <div class="page-wrapper">
 
-			<div class="page-content">
+      <div class="page-content">
 
         <div class="d-flex justify-content-between align-items-center flex-wrap grid-margin">
           <div>
             <h4 class="mb-3 mb-md-0">Informasi Umum</h4>
-          </div>
-          <div class="d-flex align-items-center flex-wrap text-nowrap">
-            <div class="input-group date datepicker dashboard-date mr-2 mb-2 mb-md-0 d-md-none d-xl-flex" id="dashboardDate">
-              <span class="input-group-addon bg-transparent"><i data-feather="calendar" class=" text-primary"></i></span>
-              <input type="text" class="form-control">
-            </div>
           </div>
         </div>
 
@@ -25,8 +19,8 @@
                     <div class="card-body">
                       <div class="media d-flex">
                         <div class="media-body text-left">
-                          <h3 class="danger">11</h3>
-                          <span>Program Keahlian</span>
+                          <h2 class="danger">8</h2>
+                          <span>Program Keahlian & Pengajaran Umum</span>
                         </div>
                         <div class="align-self-center">
                           <i data-feather="trello" class="text-white icon-xxl d-block mx-auto my-2"></i>
@@ -42,8 +36,8 @@
                     <div class="card-body">
                       <div class="media d-flex">
                         <div class="media-body text-left">
-                          <h3 class="danger">278</h3>
-                          <span>Wilayah Binaan Fastingkom</span>
+                          <h2 class="danger">11</h2>
+                          <span>Wilayah Mitra Peningkatan Kompetensi</span>
                         </div>
                         <div class="align-self-center">
                           <i data-feather="globe" class="text-white icon-xxl d-block mx-auto my-2"></i>
@@ -59,8 +53,8 @@
                     <div class="card-body">
                       <div class="media d-flex">
                         <div class="media-body text-left">
-                          <h3 class="danger">3</h3>
-                          <span>Wilayah Binaan Penjaminan Mutu</span>
+                          <h2 class="danger">3</h2>
+                          <span>Wilayah Mitra Penjaminan Mutu</span>
                         </div>
                         <div class="align-self-center">
                           <i data-feather="grid" class="text-white icon-xxl d-block mx-auto my-2"></i>
@@ -76,7 +70,7 @@
                     <div class="card-body">
                       <div class="media d-flex">
                         <div class="media-body text-left">
-                          <h3 class="danger">250</h3>
+                          <h2 class="danger">142</h2>
                           <span>Pegawai</span>
                         </div>
                         <div class="align-self-center">
@@ -92,14 +86,181 @@
         </div> <!-- row -->
 
         <div class="row">
+          <div class="col-12 col-xl-12 stretch-card">
+            <div class="row flex-grow">
+              <div class="col-md-3 grid-margin stretch-card">
+                <div class="card text-white bg-info">
+                  <div class="card-content">
+                    <div class="card-body">
+                      <div class="media d-flex">
+                        <div class="media-body text-left">
+                          <h2 class="info">2.455</h2>
+                          <span>Total SMK seluruh Wilayah Mitra</span>
+                        </div>
+                        <div class="align-self-center">
+                          <i data-feather="home" class="text-white icon-xxl d-block mx-auto my-2"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 grid-margin stretch-card">
+                <div class="card text-white bg-danger">
+                  <div class="card-content">
+                    <div class="card-body">
+                      <div class="media d-flex">
+                        <div class="media-body text-left">
+                          <h2 class="warning">949</h2>
+                          <span>Total SMK PK sesuai Wilayah Mitra</span>
+                        </div>
+                        <div class="align-self-center">
+                          <i data-feather="trending-up" class="text-white icon-xxl d-block mx-auto my-2"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 grid-margin stretch-card">
+                <div class="card text-white bg-secondary">
+                  <div class="card-content">
+                    <div class="card-body">
+                      <div class="media d-flex">
+                        <div class="media-body text-left">
+                          <h2 class="danger">29.114</h2>
+                          <span>Total Sebaran Guru SMK di Wilayah Mitra</span>
+                        </div>
+                        <div class="align-self-center">
+                          <i data-feather="user-plus" class="text-white icon-xxl d-block mx-auto my-2"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 grid-margin stretch-card">
+                <div class="card text-white bg-success">
+                  <div class="card-content">
+                    <div class="card-body">
+                      <div class="media d-flex">
+                        <div class="media-body text-left">
+                          <h2 class="danger">14.756</h2>
+                          <span>Total Guru Produktif SMK di Wilayah Mitra</span>
+                        </div>
+                        <div class="align-self-center">
+                          <i data-feather="cpu" class="text-white icon-xxl d-block mx-auto my-2"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!-- row -->
+
+        <div class="row">
           <div class="col-12 col-xl-12 grid-margin stretch-card">
             <div class="card overflow-hidden">
               <div class="card-body">
                 <div class="header">
-                  <h2><strong>USA</strong> Map</h2>
+                  <h4>Sebaran Wilayah Mitra</h4>
                 </div>
                 <div class="body text-center">
-                    <div id="usa" style="height: 400px"></div>
+                    <div id="vmap" style="width: 1050px; height: 400px;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!-- row -->
+
+        <div class="row">
+          <div class="col-lg-5 col-xl-4 grid-margin stretch-card">
+            <div class="card">
+              <div class="card-body">
+                <h6 class="card-title">Persentase Guru SMK di 11 Wilayah Mitra BBPPMPV BMTI</h6>
+                <div><canvas id="chartjsPieGuru" width="170" height="170"></canvas></div>   
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7 col-xl-8 grid-margin stretch-card">
+            <div class="card">
+              <div class="card-body">
+                <h6 class="card-title">Sasaran Guru di 11 Wilayah Mitra BBPPMPV BMTI</h6>
+                <div><canvas id="chartjsBarGuru" width="400" height="170"></canvas></div>   
+              </div>
+            </div>
+          </div>
+        </div> <!-- row -->
+
+        <div class="row">
+          <div class="col-12 col-xl-12 grid-margin stretch-card">
+            <div class="card card-primary card-tabs">
+              <div class="card-header">
+                  <h4 class="card-title">Grafik Guru Produktif dan Umum berdasarkan Wilayah Mitra BBPPMPV BMTI</h4>
+                <ul class="nav nav-tabs" id="custom-tabs-one-tab" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" id="custom-tabs-one-home-tab" data-toggle="pill" href="#custom-tabs-one-home" role="tab" aria-controls="custom-tabs-one-home" aria-selected="true">Guru Produktif <span class="badge badge-info right">14.756</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="custom-tabs-one-profile-tab" data-toggle="pill" href="#custom-tabs-one-profile" role="tab" aria-controls="custom-tabs-one-profile" aria-selected="false">Guru Umum <span class="badge badge-info right">14.358</span></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <div class="tab-content" id="custom-tabs-one-tabContent">
+                  <div class="tab-pane fade show active" id="custom-tabs-one-home" role="tabpanel" aria-labelledby="custom-tabs-one-home-tab">
+                    <h4 class="card-title">Guru Produktif di Wilayah Mitra BBPPMPV BMTI</h4>
+                     <div><canvas id="chartjsGuruProduktif" width="400" height="150"></canvas></div>
+                  </div>
+                  <div class="tab-pane fade" id="custom-tabs-one-profile" role="tabpanel" aria-labelledby="custom-tabs-one-profile-tab">
+                    <h4 class="card-title">Guru Umum di Wilayah Mitra BBPPMPV BMTI</h4>
+                     <div><canvas id="chartjsGuruUmum" width="400" height="150"></canvas></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> <!-- row -->
+
+        <div class="row">
+          <div class="col-12 col-xl-12 grid-margin stretch-card">
+            <div class="card card-primary card-tabs">
+              <div class="card-header">
+                  <h4 class="card-title">Grafik Bidang SMK berdasarkan Wilayah Mitra BBPPMPV BMTI</h4>
+                <ul class="nav nav-tabs" id="custom-tabs-one-tab" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" id="custom-tabs-one-tr-tab" data-toggle="pill" href="#custom-tabs-one-tr" role="tab" aria-controls="custom-tabs-one-home" aria-selected="true">Teknologi Rekayasa 
+                      <span class="badge badge-info right">183</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="custom-tabs-one-tik-tab" data-toggle="pill" href="#custom-tabs-one-tik" role="tab" aria-controls="custom-tabs-one-profile" aria-selected="false">Teknologi Informasi Komunikasi 
+                      <span class="badge badge-info right">141</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="custom-tabs-one-et-tab" data-toggle="pill" href="#custom-tabs-one-et" role="tab" aria-controls="custom-tabs-one-messages" aria-selected="false">Energi Pertambangan
+                    <span class="badge badge-info right">2</span>
+                  </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <div class="tab-content" id="custom-tabs-one-tabContent">
+                  <div class="tab-pane fade show active" id="custom-tabs-one-tr" role="tabpanel" aria-labelledby="custom-tabs-one-tr-tab">
+                    <h4 class="card-title">SMK Bidang Teknologi Rekayasa</h4>
+                     <div><canvas id="chartjsSMKTR" width="400" height="150"></canvas></div>
+                  </div>
+                  <div class="tab-pane fade" id="custom-tabs-one-tik" role="tabpanel" aria-labelledby="custom-tabs-one-tik-tab">
+                    <h4 class="card-title">SMK Bidang Teknologi Informasi Komunikasi</h4>
+                     <div><canvas id="chartjsSMKTIK" width="400" height="150"></canvas></div>
+                  </div>
+                  <div class="tab-pane fade" id="custom-tabs-one-et" role="tabpanel" aria-labelledby="custom-tabs-one-et-tab">
+                     <h4 class="card-title">SMK Bidang Energi Pertambangan</h4>
+                     <div><canvas id="chartjsSMKET" width="400" height="150"></canvas></div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -108,246 +269,14 @@
 
         <div class="row">
           <div class="col-lg-7 col-xl-8 grid-margin stretch-card">
-            <div class="card">
-              <div class="card-body">
-                <div class="d-flex justify-content-between align-items-baseline mb-2">
-                  <h6 class="card-title mb-0">Monthly sales</h6>
-                  <div class="dropdown mb-2">
-                    <button class="btn p-0" type="button" id="dropdownMenuButton4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <i class="icon-lg text-muted pb-3px" data-feather="more-horizontal"></i>
-                    </button>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton4">
-                      <a class="dropdown-item d-flex align-items-center" href="#"><i data-feather="eye" class="icon-sm mr-2"></i> <span class="">View</span></a>
-                      <a class="dropdown-item d-flex align-items-center" href="#"><i data-feather="edit-2" class="icon-sm mr-2"></i> <span class="">Edit</span></a>
-                      <a class="dropdown-item d-flex align-items-center" href="#"><i data-feather="trash" class="icon-sm mr-2"></i> <span class="">Delete</span></a>
-                      <a class="dropdown-item d-flex align-items-center" href="#"><i data-feather="printer" class="icon-sm mr-2"></i> <span class="">Print</span></a>
-                      <a class="dropdown-item d-flex align-items-center" href="#"><i data-feather="download" class="icon-sm mr-2"></i> <span class="">Download</span></a>
-                    </div>
-                  </div>
-                </div>
-                <p class="text-muted mb-4">Sales are activities related to selling or the number of goods or services sold in a given time period.</p>
-                <div class="monthly-sales-chart-wrapper">
-                  <canvas id="monthly-sales-chart"></canvas>
-                </div>
-              </div> 
-            </div>
+
           </div>
           <div class="col-lg-5 col-xl-4 grid-margin stretch-card">
-            <div class="card">
-              <div class="card-body">
-                <div class="d-flex justify-content-between align-items-baseline mb-2">
-                  <h6 class="card-title mb-0">Cloud storage</h6>
-                  <div class="dropdown mb-2">
-                    <button class="btn p-0" type="button" id="dropdownMenuButton5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <i class="icon-lg text-muted pb-3px" data-feather="more-horizontal"></i>
-                    </button>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton5">
-                      <a class="dropdown-item d-flex align-items-center" href="#"><i data-feather="eye" class="icon-sm mr-2"></i> <span class="">View</span></a>
-                      <a class="dropdown-item d-flex align-items-center" href="#"><i data-feather="edit-2" class="icon-sm mr-2"></i> <span class="">Edit</span></a>
-                      <a class="dropdown-item d-flex align-items-center" href="#"><i data-feather="trash" class="icon-sm mr-2"></i> <span class="">Delete</span></a>
-                      <a class="dropdown-item d-flex align-items-center" href="#"><i data-feather="printer" class="icon-sm mr-2"></i> <span class="">Print</span></a>
-                      <a class="dropdown-item d-flex align-items-center" href="#"><i data-feather="download" class="icon-sm mr-2"></i> <span class="">Download</span></a>
-                    </div>
-                  </div>
-                </div>
-                <div id="progressbar1" class="mx-auto"></div>
-                <div class="row mt-4 mb-3">
-                  <div class="col-6 d-flex justify-content-end">
-                    <div>
-                      <label class="d-flex align-items-center justify-content-end tx-10 text-uppercase font-weight-medium">Total storage <span class="p-1 ml-1 rounded-circle bg-primary-muted"></span></label>
-                      <h5 class="font-weight-bold mb-0 text-right">8TB</h5>
-                    </div>
-                  </div>
-                  <div class="col-6">
-                    <div>
-                      <label class="d-flex align-items-center tx-10 text-uppercase font-weight-medium"><span class="p-1 mr-1 rounded-circle bg-primary"></span> Used storage</label>
-                      <h5 class="font-weight-bold mb-0">6TB</h5>
-                    </div>
-                  </div>
-                </div>
-                <button class="btn btn-primary btn-block">Upgrade storage</button>
-              </div>
-            </div>
+            
           </div>
         </div> <!-- row -->
 
         <div class="row">
-          <div class="col-lg-5 col-xl-4 grid-margin grid-margin-xl-0 stretch-card">
-            <div class="card">
-              <div class="card-body">
-                <div class="d-flex justify-content-between align-items-baseline mb-2">
-                  <h6 class="card-title mb-0">Inbox</h6>
-                  <div class="dropdown mb-2">
-                    <button class="btn p-0" type="button" id="dropdownMenuButton6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <i class="icon-lg text-muted pb-3px" data-feather="more-horizontal"></i>
-                    </button>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton6">
-                      <a class="dropdown-item d-flex align-items-center" href="#"><i data-feather="eye" class="icon-sm mr-2"></i> <span class="">View</span></a>
-                      <a class="dropdown-item d-flex align-items-center" href="#"><i data-feather="edit-2" class="icon-sm mr-2"></i> <span class="">Edit</span></a>
-                      <a class="dropdown-item d-flex align-items-center" href="#"><i data-feather="trash" class="icon-sm mr-2"></i> <span class="">Delete</span></a>
-                      <a class="dropdown-item d-flex align-items-center" href="#"><i data-feather="printer" class="icon-sm mr-2"></i> <span class="">Print</span></a>
-                      <a class="dropdown-item d-flex align-items-center" href="#"><i data-feather="download" class="icon-sm mr-2"></i> <span class="">Download</span></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="d-flex flex-column">
-                  <a href="#" class="d-flex align-items-center border-bottom pb-3">
-                    <div class="mr-3">
-                      <img src="https://via.placeholder.com/35x35" class="rounded-circle wd-35" alt="user">
-                    </div>
-                    <div class="w-100">
-                      <div class="d-flex justify-content-between">
-                        <h6 class="text-body mb-2">Leonardo Payne</h6>
-                        <p class="text-muted tx-12">12.30 PM</p>
-                      </div>
-                      <p class="text-muted tx-13">Hey! there I'm available...</p>
-                    </div>
-                  </a>
-                  <a href="#" class="d-flex align-items-center border-bottom py-3">
-                    <div class="mr-3">
-                      <img src="https://via.placeholder.com/35x35" class="rounded-circle wd-35" alt="user">
-                    </div>
-                    <div class="w-100">
-                      <div class="d-flex justify-content-between">
-                        <h6 class="text-body mb-2">Carl Henson</h6>
-                        <p class="text-muted tx-12">02.14 AM</p>
-                      </div>
-                      <p class="text-muted tx-13">I've finished it! See you so..</p>
-                    </div>
-                  </a>
-                  <a href="#" class="d-flex align-items-center border-bottom py-3">
-                    <div class="mr-3">
-                      <img src="https://via.placeholder.com/35x35" class="rounded-circle wd-35" alt="user">
-                    </div>
-                    <div class="w-100">
-                      <div class="d-flex justify-content-between">
-                        <h6 class="text-body mb-2">Jensen Combs</h6>
-                        <p class="text-muted tx-12">08.22 PM</p>
-                      </div>
-                      <p class="text-muted tx-13">This template is awesome!</p>
-                    </div>
-                  </a>
-                  <a href="#" class="d-flex align-items-center border-bottom py-3">
-                    <div class="mr-3">
-                      <img src="https://via.placeholder.com/35x35" class="rounded-circle wd-35" alt="user">
-                    </div>
-                    <div class="w-100">
-                      <div class="d-flex justify-content-between">
-                        <h6 class="text-body mb-2">Amiah Burton</h6>
-                        <p class="text-muted tx-12">05.49 AM</p>
-                      </div>
-                      <p class="text-muted tx-13">Nice to meet you</p>
-                    </div>
-                  </a>
-                  <a href="#" class="d-flex align-items-center border-bottom py-3">
-                    <div class="mr-3">
-                      <img src="https://via.placeholder.com/35x35" class="rounded-circle wd-35" alt="user">
-                    </div>
-                    <div class="w-100">
-                      <div class="d-flex justify-content-between">
-                        <h6 class="text-body mb-2">Yaretzi Mayo</h6>
-                        <p class="text-muted tx-12">01.19 AM</p>
-                      </div>
-                      <p class="text-muted tx-13">Hey! there I'm available...</p>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-7 col-xl-8 stretch-card">
-            <div class="card">
-              <div class="card-body">
-                <div class="d-flex justify-content-between align-items-baseline mb-2">
-                  <h6 class="card-title mb-0">Projects</h6>
-                  <div class="dropdown mb-2">
-                    <button class="btn p-0" type="button" id="dropdownMenuButton7" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <i class="icon-lg text-muted pb-3px" data-feather="more-horizontal"></i>
-                    </button>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton7">
-                      <a class="dropdown-item d-flex align-items-center" href="#"><i data-feather="eye" class="icon-sm mr-2"></i> <span class="">View</span></a>
-                      <a class="dropdown-item d-flex align-items-center" href="#"><i data-feather="edit-2" class="icon-sm mr-2"></i> <span class="">Edit</span></a>
-                      <a class="dropdown-item d-flex align-items-center" href="#"><i data-feather="trash" class="icon-sm mr-2"></i> <span class="">Delete</span></a>
-                      <a class="dropdown-item d-flex align-items-center" href="#"><i data-feather="printer" class="icon-sm mr-2"></i> <span class="">Print</span></a>
-                      <a class="dropdown-item d-flex align-items-center" href="#"><i data-feather="download" class="icon-sm mr-2"></i> <span class="">Download</span></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="table-responsive">
-                  <table class="table table-hover mb-0">
-                    <thead>
-                      <tr>
-                        <th class="pt-0">#</th>
-                        <th class="pt-0">Project Name</th>
-                        <th class="pt-0">Start Date</th>
-                        <th class="pt-0">Due Date</th>
-                        <th class="pt-0">Status</th>
-                        <th class="pt-0">Assign</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>1</td>
-                        <td>NobleUI jQuery</td>
-                        <td>01/01/2021</td>
-                        <td>26/04/2021</td>
-                        <td><span class="badge badge-danger">Released</span></td>
-                        <td>Leonardo Payne</td>
-                      </tr>
-                      <tr>
-                        <td>2</td>
-                        <td>NobleUI Angular</td>
-                        <td>01/01/2021</td>
-                        <td>26/04/2021</td>
-                        <td><span class="badge badge-success">Review</span></td>
-                        <td>Carl Henson</td>
-                      </tr>
-                      <tr>
-                        <td>3</td>
-                        <td>NobleUI ReactJs</td>
-                        <td>01/05/2021</td>
-                        <td>10/09/2021</td>
-                        <td><span class="badge badge-info-muted">Pending</span></td>
-                        <td>Jensen Combs</td>
-                      </tr>
-                      <tr>
-                        <td>4</td>
-                        <td>NobleUI VueJs</td>
-                        <td>01/01/2021</td>
-                        <td>31/11/2021</td>
-                        <td><span class="badge badge-warning">Work in Progress</span>
-                        </td>
-                        <td>Amiah Burton</td>
-                      </tr>
-                      <tr>
-                        <td>5</td>
-                        <td>NobleUI Laravel</td>
-                        <td>01/01/2021</td>
-                        <td>31/12/2021</td>
-                        <td><span class="badge badge-danger-muted text-white">Coming soon</span></td>
-                        <td>Yaretzi Mayo</td>
-                      </tr>
-                      <tr>
-                        <td>6</td>
-                        <td>NobleUI NodeJs</td>
-                        <td>01/01/2021</td>
-                        <td>31/12/2021</td>
-                        <td><span class="badge badge-primary">Coming soon</span></td>
-                        <td>Carl Henson</td>
-                      </tr>
-                      <tr>
-                        <td class="border-bottom">3</td>
-                        <td class="border-bottom">NobleUI EmberJs</td>
-                        <td class="border-bottom">01/05/2021</td>
-                        <td class="border-bottom">10/11/2021</td>
-                        <td class="border-bottom"><span class="badge badge-info-muted">Pending</span></td>
-                        <td class="border-bottom">Jensen Combs</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div> 
-            </div>
-          </div>
+          
         </div> <!-- row -->
 
